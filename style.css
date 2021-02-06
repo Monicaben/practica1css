@@ -1,0 +1,12 @@
+body {background-color: rgb(202, 222, 230);}
+h1::first-letter {color: black;font-size: larger;}
+span:hover {background-color: yellow;}
+h1,h2 {color: blue; text-align: center;}
+p.parrafo::first-line {color: red;}
+a.apple:link {background-color: blue;}
+a.apple:focus {background-color: blue;}
+h4 {counter-reset: cuenta-productos;}
+
+p.productos::before {content: counter(cuenta-productos) "."; 
+counter-increment: cuenta-productos;}
+.steve {float: right;}
