@@ -4,8 +4,9 @@ span:hover {background-color: yellow;}
 h1,h2 {color: blue; text-align: center;}
 p.parrafo::first-line {color: red;}
 
-a:link {background-color: white; }
-a:visited {background-color: blue;}
+a {color: blue; }
+a:link {background-color: white;}
+a:visited {background-color: blue;color: white;}
 
 
 h4 {counter-reset: cuenta-productos;}
